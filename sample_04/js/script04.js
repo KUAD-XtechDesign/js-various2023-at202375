@@ -1,6 +1,7 @@
 let snowcontainer = document.querySelector(".snow-container");
 
-  const creatSnow =()=>{/*雪の要素を生成*/
+const creatSnow = () => {
+  /*雪の要素を生成*/
   let snow = document.createElement("span");
   snow.className ="snow";
 
