@@ -1,33 +1,14 @@
-body{
-  background-color: #000;
-  color: #ccc;
+*{margin: 0;
+  padding: 0;
+
 }
 
-header{
-  background-color: #fff;
-  padding: 10px;
-  color: #333;
-}
+snow-container{
 
-img{
-  max-width: 100%;
-  display: block;
-}
+background-image: url(../images/ass.jpg);
+width: 100%;
+height: 100vh;
 
-#contents{
-  max-width: 1000px;
-  margin: 0 auto;
-}
 
-.grid-item {
-  max-width: 100%;
-  width: 200px;
-  padding: 2px;
-}
-.grid-item--width2 {
-  width: 400px;
-}
 
-.grid-item--width3 {
-  width: 600px;
 }
