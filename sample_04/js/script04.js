@@ -1,4 +1,5 @@
-let snowcontainer = document.querySelector(".snow-container");
+/*雪をランダムに降らせる*/
+let snowContainer = document.querySelector(".snow-container");
 
 const creatSnow = () => {
   /*雪の要素を生成*/
@@ -6,18 +7,18 @@ const creatSnow = () => {
   snow.className ="snow";
 
   minSize = 5;
-  mixSize = 10;
+  maxSize = 10;
 
   /*雪の大きさをランダムに決める　*/
-  let snowSaiz = Math.random() * (maxSize - minSize) +minSiza;
+  let snowSaize = Math.random() * (maxSize - minSize) +minSize;
 
-  snow.style.width = snowSaiz + "px"
-  snow.style.height = snowSaiz + "px"
+  snow.style.width = snowSize + "px"
+  snow.style.height = snowSize + "px"
 
   /*雪の降り始めの位置を決定する　*/
-  snow.left = Math.random() * 100 + "%"
+  snow.style.left = Math.random() * 100 + "%"
 
-  snowcontainer.appendchild(snow);
+  snowContainer.appendChild(snow);
 
   /* 10秒後に雪を消す */
   setTimeout(() => {

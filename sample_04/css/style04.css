@@ -19,7 +19,7 @@
   animation: snowFall 10s linear;
 }
 
-@keyframes snowFoll{
+@keyframes snowFall{
   0% {  
     opacity: 0;
     top: 0;
