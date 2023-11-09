@@ -12,8 +12,8 @@ const creatSnow = () => {
   /*雪の大きさをランダムに決める　*/
   let snowSaize = Math.random() * (maxSize - minSize) +minSize;
 
-  snow.style.width = snowSize + "px"
-  snow.style.height = snowSize + "px"
+  snow.style.width = snowSaize + "px"
+  snow.style.height = snowSaize + "px"
 
   /*雪の降り始めの位置を決定する　*/
   snow.style.left = Math.random() * 100 + "%"
