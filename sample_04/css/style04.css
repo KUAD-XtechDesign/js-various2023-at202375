@@ -33,6 +33,17 @@
   20%{
     transform: translateX(-5px);
   }
+  30% {
+    transform: translateX(5px);
+  }40% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
   90% {
    opacity: 1;
   }
