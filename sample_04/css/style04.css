@@ -10,6 +10,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 
 .snow{
@@ -23,9 +24,14 @@
   0% {  
     opacity: 0;
     top: 0;
+    transform: translateX(5px);
   }
   10% {
   opacity:1 ;
+  transform: translateX(-5px);
+  }
+  20%{
+    transform: translateX(-5px);
   }
   90% {
    opacity: 1;
